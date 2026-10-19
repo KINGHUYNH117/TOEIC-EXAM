@@ -1,0 +1,30 @@
+# Local secrets and machine-specific configuration
+**/.env
+**/.env.*
+!**/.env.example
+**/secrets.json
+**/appsettings.Development.json
+**/appsettings.Staging.json
+**/appsettings.Production.json
+
+# .NET build output and logs
+**/bin/
+**/obj/
+**/TestResults/
+**/App_Data/Logs/
+
+# Flutter build output and local tooling
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/build/
+**/coverage/
+**/*.iml
+
+# Local database and editor state
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+.vs/
